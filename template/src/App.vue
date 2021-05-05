@@ -18,6 +18,7 @@ export default {
     const a = 1
     const b = 2
     console.log(a === b)
+    console.log(this.$i18n.t('LANGUAGE.DESPCRIPTION'))
   },
 }
 </script>
